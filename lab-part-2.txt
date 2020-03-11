@@ -16,7 +16,8 @@ Follow the instructions line-by-line.
 
 Write the command you used to do this below.
 ----------
-
+cd ~
+nano temp.txt
 
 
 ==========
@@ -29,7 +30,10 @@ Write the command you used to do this below.
 
 Write the command that you used to do this, and the last two lines of output.
 ----------
-
+ps aux
+student           9714   0.0  0.0  4302056   3088 s000  T     8:12PM   0:00.01 git commit
+student           9712   0.0  0.9  7862684 316308   ??  S     8:12PM   0:05.18 /Applications/Fi
+_spotlight        9706   0.0  0.0  4346984  12044   ??  S     8:12PM   0:00.04 /System/Library/
 
 ==========
 4. Run the same command, but look for a specific process.  (It's the version of the command that has | grep ...).  Look for the program that you started to edit a file, nano.
